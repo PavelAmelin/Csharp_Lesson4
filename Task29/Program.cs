@@ -1,4 +1,4 @@
-﻿int[] Array()
+﻿void Array()
 {
     int N = Convert.ToInt32(Console.ReadLine());
     int count = Convert.ToInt32(Console.ReadLine());
@@ -12,8 +12,7 @@
         else
         Console.Write($"{arr[i]}");
     }
-    Console.Write("]");
-    return arr;
+    Console.WriteLine("]");
 }
 
 Array();
